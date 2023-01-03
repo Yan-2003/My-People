@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.head{
+    text-align: center;
+    background-color: rgb(228, 227, 227);
+    padding: 3rem 0;
+    width: 100%;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin: 1rem auto;
+    align-items: center;
+
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+}
+
+table tr td{
+    outline: 1px rgb(44, 44, 44) solid;
+    padding: 1rem 0;
+}
+table tr th{
+    outline: 2px rgb(44, 44, 44) solid;
+    background-color:rgb(199, 197, 197);
+    font-size: 20px;
+    padding: 2rem 0;
+}
+
+.add{
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    display:inline-block;
+    padding: 15px 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+    background-color: rgb(152, 224, 80);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 280ms;
+}
+
+.add:hover{
+    background-color: rgb(109, 161, 57);
+}
+
+.update{
+    display:inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: rgb(80, 102, 224);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 280ms;
+}
+.update:hover{
+    background-color: rgb(42, 55, 126);
+}
+.delete{
+    display:inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: rgb(224, 80, 80);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 280ms;
+}
+
+.delete:hover{
+    background-color: rgb(126, 42, 42);
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.create--box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1rem auto;
+    padding: 40px;
+    gap: 1rem;
+    background-color: rgb(201, 201, 201);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.849) ;
+}
+
+.type--box{
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    outline: 1px solid rgb(80, 80, 80);
+}
+
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
